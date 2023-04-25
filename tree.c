@@ -6,7 +6,7 @@ typedef struct tree
 	int value;
 	struct tree *tleft;
 	struct tree *tright;
-	struct tree *parent; // cette variable n'est pas obligatoire, c'est juste pour une bonne affichage
+	struct tree *parent; // cette variable n'est pas obligatoire, c'est juste pour une bonne affichage, vous pouvez ne pas le mettre
 }tree;
 
 tree *new_tree(int x) // creation d'une nouvelle arbre
